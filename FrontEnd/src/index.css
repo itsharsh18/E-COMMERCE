@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+.raj{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.navbar{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    text-transform: uppercase;
+    box-shadow: 0 8px 6px -6px gray;
+    --webkit-box-shadow:0 8px 6px -6px gray;
+    border-bottom:  solid gray !important;
+}
+
+.nav{
+    font-weight: 300 !important;
+}
+.navbar-brand{
+    font-weight: 700;
+    font-family: 'poppins' , sans-serif;
+}
+.new-footer{
+background: linear-gradient(to right, red , #000000);
+position: relative;
+top: 500px;
+}
+/* .active{
+    border-bottom: 1px  solid black;
+} */
+
+
+/* .footer-links {
+    text-decoration: none;
+    color: white;
+  } */
+  
+  .footer-links a { /* Target the links within the paragraph */
+    padding: 0 10px; 
+    text-decoration: none;
+    
+    /* Add some spacing between links (optional) */
+    color: white;
+  }
+
+.centered-content{
+    display: flex; /* Enable flexbox layout */
+    
+    justify-content: center; /* Center elements horizontally */
+    align-items: center; /* Center elements vertically */
+    min-height: 90vh; /* Maintain minimum height */
+}
+
+
+ /* register page --------------->>>>>>>>>>>>>>>>>>>
+*/
+
+.Register{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    flex-direction: column;
+
+
+}
+
+
+body {
+    background: linear-gradient(to bottom, #f7f7f7, #ffffff);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 1rem;
+  }
+  
+  .register-card {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .register-card h1 {
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    color: #333;
+    position: relative;
+  }
+  
+  .register-card h1:after {
+    content: '';
+    width: 50px;
+    height: 4px;
+    background: #007bff;
+    display: block;
+    margin: 0.5rem auto 0;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 0.75rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+  }
+  
+  .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+    outline: none;
+  }
+  
+  .btn-block {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.25rem;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-block:hover {
+    background-color: #0056b3;
+  }
+  
+  .toast-container {
+    font-size: 1rem;
+  }
+  
